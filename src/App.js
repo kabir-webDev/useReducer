@@ -22,7 +22,9 @@ function App() {
           <ComponentB/> */}
           {/* <ComponentE/> */}
         {/* </UserContext.Provider> */}
+        <h1>This is Context API</h1>
         <ReducerPrac/>
+
     </div>
   );
 }
