@@ -15,7 +15,7 @@ function JodiEitaTaileOita() {
           <h1>
             <span className="hoynai">{name}</span> - Not Done
           </h1>
-          <button onClick={keteDao}>Mark as Done</button>
+          <button onClick={keteDao}>Done</button>
         </div>
       </>
     );
