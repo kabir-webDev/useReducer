@@ -1,20 +1,24 @@
-import React from "react";
-import "./App.css";
-// import JodiEitaTaileOita from "./Conditional/JodiEitaTaileOita";
-import { useState } from "react";
-// import TextHidden from "./component/Delete/TextHidden";
-// import Fetch from "./component/FetchData/Fetch";
-// import ComponentA from "./ContextComponent/ComponentA";
-// import ComponentB from "./ContextComponent/ComponentB";
-import { UserContext } from "./ContextComponent/UserContext";
-// import ComponentE from "./ContextComponent/ComponentE";
-// import ReducerPrac from "./ReducerPrac";
-// import Another from "./component/Another.JS";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      walah
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
